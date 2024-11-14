@@ -39,9 +39,11 @@ public abstract class Produto {
 	}
 	
 	public void Visualizar () {
+		System.out.println("\n\nID: " + this.id);
 		System.out.println("Produto: " + this.nome);
 		System.out.println("Marca: " + this.marca);
 		System.out.println("Valor: " + this.valor);
+		
 	}
 	
 	
