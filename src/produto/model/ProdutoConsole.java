@@ -8,23 +8,10 @@ public class ProdutoConsole extends Produto {
 		super(nome, marca, id, valor);
 
 		this.versao = versao;
-		
+
 	}
-	
-	
-	public String getVersao() {
-		return versao;
-	}
-
-
-	public void setVersao(String versao) {
-		this.versao = versao;
-	}
-
-
 	@Override
 	public void Visualizar () {
-		super.Visualizar();
 		System.out.println("Versão: " + this.versao);
 	}
 }
